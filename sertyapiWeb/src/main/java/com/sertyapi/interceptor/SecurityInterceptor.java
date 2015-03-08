@@ -11,10 +11,16 @@ import org.springframework.web.servlet.ModelAndView;
 public class SecurityInterceptor implements HandlerInterceptor {
 
 	private Log logger = LogFactory.getLog(getClass());
+	private long buildKey = System.currentTimeMillis();
 
 	@Override
 	public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+		setBuildKey(request);
 		return true;
+	}
+
+	private void setBuildKey(HttpServletRequest request) {
+		request.getSession().setAttribute("buildKey", Long.valueOf(buildKey));
 	}
 
 	@Override
