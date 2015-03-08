@@ -1,0 +1,5 @@
+com\sertyapi\model\Model.class
+com\sertyapi\interceptor\SecurityInterceptor.class
+com\sertyapi\controller\HomeController.class
+com\sertyapi\controller\AboutUsController.class
+com\sertyapi\controller\BaseController.class
