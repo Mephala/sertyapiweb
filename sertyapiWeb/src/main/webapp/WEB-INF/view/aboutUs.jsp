@@ -21,40 +21,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="grid_12">
-                            <div id="stuck_container">
-                                <div class="substrate bg2"></div>
-                                <div class="brand">
-                                    <h1>
-                                        <a href="./">
-                                            Apartment for rent
-                                        </a>
-                                    </h1>
-                                </div>
-                                <nav class="nav">
-                                    <ul class="sf-menu">
-                                        <li><a href="./">Home</a></li>
-                                        <li class="active">
-                                            <a href="index-1.html">About Us</a>
-                                            <ul>
-                                                <li><a href="#">Clients</a></li>
-                                                <li>
-                                                    <a href="#">History</a>
-                                                    <ul>
-                                                        <li><a href="#">Nam liber</a></li>
-                                                        <li><a href="#">Duisautem</a></li>
-                                                        <li><a href="#">Eodemo</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">Archive</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="index-2.html">Properties</a></li>
-                                        <li><a href="index-3.html">News</a></li>
-                                        <li><a href="index-4.html">Services</a></li>
-                                        <li><a href="index-5.html">Contacts</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
+                            <jsp:include page="navigation.jsp"/>
                         </div>
                     </div>
                 </div>
@@ -213,119 +180,8 @@
             </div>
         </section>
 
-        <!--========================================================
-                                  FOOTER
-        =========================================================-->
-        <footer id="footer">
-            <div class="bg1">
-                <div class="container">
-                    <div class="row well__ins1">
-                        <div class="grid_4">
-                            <h2>Newsletter sign up:</h2>
-                        </div>
-                        <div class="grid_8">
-                            <form id="subscribe-form" class="sub-form">
-                                <fieldset>
-                                    <div class="row">
-                                        <div class="grid_5">
-                                            <label class="email">
-                                                <input type="email" value="Your email">
-                                                <span class="error">*This is not a valid email address.</span>
-                                                <span class="success">Your subscription request has been sent!</span>
-                                            </label>
-                                        </div>
-                                        <div class="grid_3">
-                                            <a href="#" data-type="submit">subscribe</a>
-                                        </div>
-                                    </div>
-                                </fieldset>
-                            </form>
-                        </div>
-                    </div>
-
-                    <div class="row well__ins1">
-                        <div class="grid_3">
-                            <h3>Navigation</h3>
-                            <ul class="marked-list">
-                                <li><a href="./">Home</a></li>
-                                <li class="active"><a href="index-1.html">About Us</a></li>
-                                <li><a href="index-2.html">Properties</a></li>
-                                <li><a href="index-3.html">News</a></li>
-                                <li><a href="index-4.html">Services</a></li>
-                                <li><a href="index-5.html">Contacts</a></li>
-                            </ul>
-                        </div>
-                        <div class="grid_6">
-                            <h3>Useful links</h3>
-                            <div class="row">
-                                <div class="grid_3">
-                                    <ul class="marked-list">
-                                        <li><a href="#">Typi non habent claritatem</a></li>
-                                        <li><a href="#">Ositamest usus legentis in</a></li>
-                                        <li><a href="#">Qui faem insitaus</a></li>
-                                        <li><a href="#">Egm insitam</a></li>
-                                        <li><a href="#">Cit ci ta ullamcorper suscipit</a></li>
-                                        <li><a href="#">Wes nisl ut aliquip ex ea </a></li>
-                                    </ul>
-                                </div>
-                                <div class="grid_3">
-                                    <ul class="marked-list">
-                                        <li><a href="#">Gabent claritat</a></li>
-                                        <li><a href="#">Reitamest</a></li>
-                                        <li><a href="#">Wes nisl ut ali insitusus</a></li>
-                                        <li><a href="#">De kiioins</a></li>
-                                        <li><a href="#">Ea ullam</a></li>
-                                        <li><a href="#">Vsl ut aliquip ex ea co</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="grid_3">
-                            <h3>Contact</h3>
-                            <address>
-                                <ul class="marked-list">
-                                    <li>The Company Name Inc.</li>
-                                    <li>
-                                        9870 St Vincent Place, <br />
-                                        Glasgow, DC 45 Fr 45.
-                                    </li>
-                                    <li>
-                                        +1 800 603 6035
-                                    </li>
-                                    <li>
-                                        +1 800 889 9898
-                                    </li>
-                                    <li>
-                                        <a href="#">mail@demolink.org </a>
-                                    </li>
-                                </ul>
-                            </address>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container ta__c well__ins2">
-                <div class="row">
-                    <div class="grid_12">
-                        <ul class="socials">
-                            <li><a href="#"><span class="fa fa-twitter"></span>Twitter</a></li>
-                            <li><a href="#"><span class="fa fa-facebook"></span>Facebook</a></li>
-                            <li><a href="#"><span class="fa fa-google-plus"></span>Google Plus</a></li>
-                        </ul>
-                        <p class="info">
-                            <a href="./" class="company">Apartment for rent</a> <br />
-
-                            Copyright ©
-                            <span id="copyright-year"></span>
-                            |
-                            <a href="index-6.html">Privacy Policy</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </footer>
+       <jsp:include page="footer.jsp"/>
     </div>
 
-    <script src="js/script.js"></script>
 </body>
 </html>
