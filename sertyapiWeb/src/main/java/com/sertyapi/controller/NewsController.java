@@ -14,7 +14,7 @@ public class NewsController extends BaseController {
 
 	@RequestMapping(value = "/haberler")
 	public Object showNews(HttpServletRequest request, HttpServletResponse response) {
-		ModelAndView model = createModel(Model.NEWS);
+		ModelAndView model = createModel(request, response, Model.NEWS);
 		return model;
 	}
 

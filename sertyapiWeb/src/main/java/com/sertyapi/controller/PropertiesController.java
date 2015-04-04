@@ -14,7 +14,7 @@ public class PropertiesController extends BaseController {
 
 	@RequestMapping(value = "/projeler")
 	public Object showProperties(HttpServletRequest request, HttpServletResponse response) {
-		ModelAndView model = createModel(Model.PROPERTIES);
+		ModelAndView model = createModel(request, response, Model.PROPERTIES);
 		return model;
 	}
 

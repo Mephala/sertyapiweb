@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Home</title>
+    <title>${wordingMap['home']}</title>
     <jsp:include page="includes.jsp"/>
 </head>
 
@@ -44,37 +44,36 @@
                     <div class="row">
                         <div class="grid_12 wow fadeInLeft">
                             <h2 class="hdng">
-                                <span>Company info</span>
-                                About us
+                                <span>${wordingMap['companyInfo']}</span>
+                                ${wordingMap['aboutUs']}
                             </h2>
                         </div>
                     </div>
                     <div class="row">
                         <div class="grid_4 wow fadeInLeft" data-wow-delay=".2s">
                             <div class="box1">
-                                <h3><a href="#">Dolor in hendrerit in vulputate </a></h3>
+                                <h3><a href="#">${wordingMap['mainpage.aboutUs.div1.title']} </a></h3>
                                 <p>
-                                    Duis autem vel eum iriure dolor in
-                                    hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
-                                    <a href="#">more</a>
+                                  	${wordingMap['mainpage.aboutUs.div1.bodyShort']} 
+                                    <a href="#">${wordingMap['more']}</a>
                                 </p>
                             </div>
                         </div>
                         <div class="grid_4 wow fadeInLeft" data-wow-delay=".4s">
                             <div class="box1">
-                                <h3><a href="#">Typi non habent claritatem insita</a></h3>
+                                <h3><a href="#">${wordingMap['mainpage.aboutUs.div2.title']}</a></h3>
                                 <p>
-                                    Claritas est etiam  vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
-                                    <a href="#">more</a>
+                                    ${wordingMap['mainpage.aboutUs.div2.bodyShort']}
+                                    <a href="#">${wordingMap['more']}</a>
                                 </p>
                             </div>
                         </div>
                         <div class="grid_4 wow fadeInLeft" data-wow-delay=".6s">
                             <div class="box1">
-                                <h3><a href="#">Claritas est etiam drerit in </a></h3>
+                                <h3><a href="#">${wordingMap['mainpage.aboutUs.div3.title']} </a></h3>
                                 <p>
-                                    Ut wisi enim ad minim eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
-                                    <a href="#">more</a>
+                                    ${wordingMap['mainpage.aboutUs.div3.bodyShort']}
+                                    <a href="#">${wordingMap['more']}</a>
                                 </p>
                             </div>
                         </div>
@@ -85,8 +84,8 @@
                     <div class="row">
                         <div class="grid_12 wow fadeInLeft">
                             <h2 class="hdng__off2">
-                                <span>our proposals</span>
-                                featured properties
+                                <span>${wordingMap['ourProposals']}</span>
+                                ${wordingMap['featuredProperties']}
                             </h2>
                         </div>
                     </div>

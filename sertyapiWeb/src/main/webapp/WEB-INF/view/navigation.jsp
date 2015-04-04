@@ -6,16 +6,16 @@
                                 <div class="brand">
                                     <h1>
                                         <a href="/anasayfa">
-                                            Apartment for rent
+                                            ${wordingMap['sertyapi-insMut']}
                                         </a>
                                     </h1>
                                 </div>
                                 
                                 <nav class="nav">
                                     <ul class="sf-menu">
-                                        <li <c:if test="${homeActive}">class="active"</c:if>><a href="/anasayfa">Home</a></li>
+                                        <li <c:if test="${homeActive}">class="active"</c:if>><a href="/anasayfa">${wordingMap['mainPage']}</a></li>
                                         <li <c:if test="${aboutUsActive}">class="active"</c:if>>
-                                            <a href="/hakkimizda">About Us</a>
+                                            <a href="/hakkimizda">${wordingMap['aboutUs']}</a>
 <!--                                             <ul> -->
 <!--                                                 <li><a href="#">Clients</a></li> -->
 <!--                                                 <li> -->
@@ -29,10 +29,10 @@
 <!--                                                 <li><a href="#">Archive</a></li> -->
 <!--                                             </ul> -->
                                         </li>
-                                        <li <c:if test="${propertiesActive}">class="active"</c:if>><a href="/projeler">Properties</a></li>
-                                        <li <c:if test="${newsActive}">class="active"</c:if>><a href="/haberler">News</a></li>
+                                        <li <c:if test="${propertiesActive}">class="active"</c:if>><a href="/projeler">${wordingMap['projects']}</a></li>
+                                        <li <c:if test="${newsActive}">class="active"</c:if>><a href="/haberler">${wordingMap['news']}</a></li>
 <!--                                         <li><a href="index-4.html">Services</a></li> -->
-                                        <li <c:if test="${contactUsActive}">class="active"</c:if>><a href="mailto:bilgi@sert-yapi.com">Contacts</a></li>
+                                        <li <c:if test="${contactUsActive}">class="active"</c:if>><a href="mailto:bilgi@sert-yapi.com">${wordingMap['contactUs']}</a></li>
                                     </ul>
                                 </nav>
                             </div>

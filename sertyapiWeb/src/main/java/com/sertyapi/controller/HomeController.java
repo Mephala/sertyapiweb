@@ -13,7 +13,7 @@ public class HomeController extends BaseController {
 
 	@RequestMapping(value = "/anasayfa")
 	public Object showHomePage(HttpServletRequest request, HttpServletResponse response) {
-		return createModel(Model.HOME);
+		return createModel(request, response, Model.HOME);
 	}
 
 }

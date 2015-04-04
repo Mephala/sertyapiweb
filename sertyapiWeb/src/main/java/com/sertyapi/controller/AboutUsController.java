@@ -13,6 +13,6 @@ public class AboutUsController extends BaseController {
 
 	@RequestMapping(value = "/hakkimizda")
 	public Object showAboutUs(HttpServletRequest request, HttpServletResponse response) {
-		return createModel(Model.ABOUT_US);
+		return createModel(request, response, Model.ABOUT_US);
 	}
 }
