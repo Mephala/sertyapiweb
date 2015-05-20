@@ -101,7 +101,7 @@
                             <li><a href="#"><span class="fa fa-google-plus"></span>Google Plus</a></li>
                         </ul>
                         <p class="info">
-                            <a href="./" class="company">${wordingMap['sertyapi-insMut']}</a> <br />
+                            <a href="./" class="company">Apartment for rent</a> <br />
 
                             Copyright ©
                             <span id="copyright-year"></span>

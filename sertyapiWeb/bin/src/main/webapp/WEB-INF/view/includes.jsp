@@ -1,9 +1,5 @@
 <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no" />
-    <meta name="description" content="${wordingMap['seo.Wording']}">
-    <meta name="keywords" content="${wordingMap['seo.Wording']}">
-    <meta name="author" content="${wordingMap['seo.author']}">
-    
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="/css/grid.css?${buildKey}">
     <link rel="stylesheet" href="/css/style.css?${buildKey}">
