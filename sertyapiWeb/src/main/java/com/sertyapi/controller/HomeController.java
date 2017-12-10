@@ -14,7 +14,7 @@ import java.io.OutputStream;
 @Controller
 public class HomeController extends BaseController {
 
-    @RequestMapping(value = "/anasayfa")
+    @RequestMapping(value = {"/anasayfa", "/"})
     public Object showHomePage(HttpServletRequest request, HttpServletResponse response) {
         return createModel(request, response, Model.HOME);
     }
